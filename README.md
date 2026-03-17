@@ -1,17 +1,19 @@
 # NO WOE Storefront
 
-Онлайн-витрина бренда `NO WOE` на `Next.js 16` с каталогом, карточками товаров, корзиной, избранным и информационными страницами. Проект рассчитан на быстрый запуск как витрины коллекции одежды с оформлением заказа через Telegram.
+Modern storefront for the `NO WOE` clothing brand built with `Next.js 16`, `React 19`, and `TypeScript`.
 
-## Что есть в проекте
+The project includes a product catalog, product detail pages, favorites, cart state, and supporting content pages for delivery, payment, FAQ, and contacts. It is designed as a fast launch-ready fashion storefront with Telegram-based order flow.
 
-- каталог товаров с поиском, фильтрами и сортировкой
-- динамические страницы товаров: `/catalog/[slug]`
-- страницы `about`, `delivery`, `payment`, `faq`, `contacts`
-- локальное состояние корзины и избранного
-- готовая витрина изображений и данных товаров
-- адаптивный интерфейс на `React 19` и `Next.js App Router`
+## Features
 
-## Стек
+- catalog with search, filters, and sorting
+- dynamic product pages at `/catalog/[slug]`
+- favorites and cart stored on the client
+- responsive UI built with App Router
+- reusable product data source in `src/data/products.ts`
+- static assets for product visuals in `public/products`
+
+## Tech Stack
 
 - `Next.js 16`
 - `React 19`
@@ -19,25 +21,25 @@
 - `Tailwind CSS 4`
 - `ESLint`
 
-## Структура
+## Project Structure
 
-- `src/app` - маршруты и layout
-- `src/components` - UI-компоненты витрины
-- `src/data/products.ts` - каталог и фильтры
-- `src/lib/products.ts` - утилиты работы с товарами
-- `src/providers/ShopProvider.tsx` - состояние магазина
-- `public/products` - изображения товаров
+- `src/app` - routes and application layout
+- `src/components` - storefront UI components
+- `src/data/products.ts` - product catalog and filters
+- `src/lib/products.ts` - product helpers
+- `src/providers/ShopProvider.tsx` - shared shop state
+- `public/products` - product images and graphics
 
-## Быстрый старт
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Открыть локально: `http://localhost:3000`
+Open `http://localhost:3000`
 
-## Полезные команды
+## Available Scripts
 
 ```bash
 npm run dev
@@ -46,13 +48,13 @@ npm run build
 npm run start
 ```
 
-## Как обновлять каталог
+## Updating the Catalog
 
-1. Добавить или отредактировать товар в `src/data/products.ts`.
-2. Загрузить изображения в `public/products`.
-3. Указать уникальный `slug`, он используется в URL товара.
-4. Проверить отображение в каталоге и карточке товара.
+1. Edit or add products in `src/data/products.ts`.
+2. Add product images to `public/products`.
+3. Keep each `slug` unique because it is used in the product URL.
+4. Check the catalog page and product page after changes.
 
-## Публикация
+## Deployment
 
-Проект подходит для деплоя на `Vercel`, `Railway` или любом Node.js-хостинге с поддержкой `Next.js`.
+The project can be deployed to `Vercel`, `Railway`, or any Node.js hosting environment that supports `Next.js`.
