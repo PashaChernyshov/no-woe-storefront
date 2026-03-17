@@ -1,60 +1,82 @@
 # NO WOE Storefront
 
-Онлайн-витрина бренда `NO WOE`, собранная на `Next.js 16`, `React 19` и `TypeScript`.
+Modern fashion storefront for the `NO WOE` brand, built with `Next.js 16`, `React 19`, and `TypeScript`.
 
-Проект представляет собой готовый storefront для продажи одежды: с каталогом, карточками товаров, избранным, корзиной и отдельными страницами с информацией о доставке, оплате, FAQ и контактах. Подходит как база для быстрого запуска fashion-бренда или капсульной коллекции.
+This project is a ready-to-adapt ecommerce frontend for a clothing brand or capsule drop. It includes a product catalog, product detail pages, favorites, cart flow, and informational pages for delivery, payment, FAQ, contacts, and brand context.
 
-## Возможности
+## Highlights
 
-- каталог товаров с поиском, фильтрами и сортировкой
-- динамические страницы товаров по маршруту `/catalog/[slug]`
-- избранное и корзина с хранением состояния на клиенте
-- адаптивный интерфейс на `Next.js App Router`
-- единый источник данных товаров в `src/data/products.ts`
-- готовые изображения и графика в `public/products`
+- responsive storefront built with the Next.js App Router
+- searchable catalog with filters and sorting
+- dynamic product pages at `/catalog/[slug]`
+- favorites and cart stored on the client
+- product gallery with color switching
+- static product source for quick content management
+- supporting brand pages: delivery, payment, FAQ, contacts, about
 
-## Стек
+## Tech Stack
 
-- `Next.js 16`
-- `React 19`
-- `TypeScript`
-- `Tailwind CSS 4`
-- `ESLint`
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- ESLint
 
-## Структура проекта
+## Project Structure
 
-- `src/app` - маршруты и общий layout
-- `src/components` - UI-компоненты витрины
-- `src/data/products.ts` - каталог товаров и фильтры
-- `src/lib/products.ts` - утилиты для работы с товарами
-- `src/providers/ShopProvider.tsx` - общее состояние магазина
-- `public/products` - изображения товаров и графика
+```text
+src/
+  app/                     routes and page-level composition
+  components/              storefront UI components
+  data/products.ts         catalog data and filter definitions
+  lib/products.ts          catalog helpers, filtering and formatting
+  providers/ShopProvider.tsx
+                           cart and favorites state
+public/products/           product images and brand assets
+```
 
-## Локальный запуск
+## Getting Started
 
 ```bash
 npm install
 npm run dev
 ```
 
-После запуска открыть: `http://localhost:3000`
+Open `http://localhost:3000`.
 
-## Полезные команды
+## Available Commands
 
 ```bash
 npm run dev
-npm run lint
 npm run build
 npm run start
+npm run lint
 ```
 
-## Как обновлять каталог
+## Content Updates
 
-1. Добавить или отредактировать товар в `src/data/products.ts`.
-2. Загрузить изображения в `public/products`.
-3. Указать уникальный `slug`, так как он используется в URL товара.
-4. Проверить отображение товара в каталоге и на детальной странице.
+To update the catalog:
 
-## Деплой
+1. Edit or add product entries in `src/data/products.ts`.
+2. Add product images to `public/products`.
+3. Keep each `slug` unique because it is used in the product URL.
+4. Verify the product card and the product detail page locally.
 
-Проект можно развернуть на `Vercel`, `Railway` или любом Node.js-хостинге с поддержкой `Next.js`.
+## Deployment
+
+This storefront can be deployed to platforms such as:
+
+- Vercel
+- Railway
+- any Node.js hosting with Next.js support
+
+## Use Cases
+
+- fashion brand landing storefront
+- capsule collection launch
+- visual ecommerce prototype
+- frontend base for a custom headless commerce setup
+
+## Status
+
+Active product frontend. The current version focuses on the storefront experience and local client-side shopping flow.
