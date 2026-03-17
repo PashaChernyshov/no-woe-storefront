@@ -1,0 +1,10 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" rx="56" fill="#F5F5F2"/>
+  <rect x="190" y="180" width="820" height="1080" rx="90" fill="#FFFFFF"/>
+  <path d="M450 240L360 360H840L750 240H450Z" fill="#E8E8E4"/>
+  <rect x="380" y="470" width="440" height="90" rx="20" fill="#7BC6FF"/>
+  <text x="600" y="533" fill="#101010" font-size="50" font-family="Arial Black, Arial" text-anchor="middle">SIGNAL</text>
+  <text x="600" y="790" fill="#101010" font-size="124" font-family="Arial Black, Arial" text-anchor="middle">NOISE</text>
+  <text x="600" y="910" fill="#101010" font-size="124" font-family="Arial Black, Arial" text-anchor="middle">FADES</text>
+  <text x="600" y="1020" fill="#6E6E76" font-size="32" font-family="Arial" text-anchor="middle" letter-spacing="10">TEXT SERIES</text>
+</svg>

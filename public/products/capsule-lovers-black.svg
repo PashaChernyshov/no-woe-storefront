@@ -1,0 +1,9 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" rx="56" fill="#101010"/>
+  <rect x="190" y="180" width="820" height="1080" rx="90" fill="#1A1A1D"/>
+  <path d="M450 240L360 360H840L750 240H450Z" fill="#232327"/>
+  <path d="M600 540C600 490 639 452 688 452C726 452 759 473 774 506C789 473 822 452 860 452C909 452 948 490 948 540C948 684 774 778 774 778C774 778 600 684 600 540Z" fill="#FFB26E"/>
+  <path d="M252 540C252 490 291 452 340 452C378 452 411 473 426 506C441 473 474 452 512 452C561 452 600 490 600 540C600 684 426 778 426 778C426 778 252 684 252 540Z" fill="#D7FF52"/>
+  <text x="600" y="980" fill="white" font-size="78" font-family="Arial Black, Arial" text-anchor="middle">CAPSULE LOVERS</text>
+  <text x="600" y="1052" fill="#8B8B92" font-size="32" font-family="Arial" text-anchor="middle" letter-spacing="8">PAIRED SERIES</text>
+</svg>

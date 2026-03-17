@@ -1,0 +1,11 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" rx="56" fill="#F6F6F3"/>
+  <rect x="190" y="180" width="820" height="1080" rx="90" fill="#FFFFFF"/>
+  <path d="M450 240L360 360H840L750 240H450Z" fill="#E8E8E5"/>
+  <circle cx="510" cy="660" r="160" fill="#D7FF52"/>
+  <circle cx="690" cy="660" r="160" fill="#B7A6FF"/>
+  <path d="M510 560L566 660L510 760L454 660L510 560Z" fill="#FFFFFF"/>
+  <path d="M690 560L746 660L690 760L634 660L690 560Z" fill="#FFFFFF"/>
+  <text x="600" y="985" fill="#101010" font-size="78" font-family="Arial Black, Arial" text-anchor="middle">DOUBLE VISION</text>
+  <text x="600" y="1058" fill="#73737A" font-size="32" font-family="Arial" text-anchor="middle" letter-spacing="8">PAIRED DROP</text>
+</svg>

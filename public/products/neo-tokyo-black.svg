@@ -1,0 +1,10 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" rx="56" fill="#111111"/>
+  <rect x="190" y="180" width="820" height="1080" rx="90" fill="#1B1B1D"/>
+  <path d="M450 240L360 360H840L750 240H450Z" fill="#242427"/>
+  <rect x="365" y="430" width="470" height="470" rx="38" fill="#27272B"/>
+  <circle cx="600" cy="620" r="156" fill="#FF79BC"/>
+  <path d="M456 760C506 658 572 548 728 500C699 626 641 722 531 810L456 760Z" fill="#B7A6FF"/>
+  <text x="600" y="985" fill="white" font-size="88" font-family="Arial Black, Arial" text-anchor="middle">NEO TOKYO</text>
+  <text x="600" y="1060" fill="#8B8B92" font-size="34" font-family="Arial" text-anchor="middle" letter-spacing="8">ANIME UNIT 01</text>
+</svg>

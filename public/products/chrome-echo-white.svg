@@ -1,0 +1,10 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" rx="56" fill="#F6F6F3"/>
+  <rect x="190" y="180" width="820" height="1080" rx="90" fill="#FFFFFF"/>
+  <path d="M450 240L360 360H840L750 240H450Z" fill="#E8E8E5"/>
+  <path d="M380 510C480 450 720 450 820 510" stroke="#B7A6FF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M380 610C480 550 720 550 820 610" stroke="#7BC6FF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M380 710C480 650 720 650 820 710" stroke="#101010" stroke-width="18" stroke-linecap="round"/>
+  <text x="600" y="970" fill="#101010" font-size="86" font-family="Arial Black, Arial" text-anchor="middle">CHROME ECHO</text>
+  <text x="600" y="1042" fill="#6F6F76" font-size="32" font-family="Arial" text-anchor="middle" letter-spacing="8">GRAPHIC SERIES</text>
+</svg>

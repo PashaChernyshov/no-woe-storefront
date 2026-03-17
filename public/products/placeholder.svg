@@ -1,0 +1,15 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="120" y1="0" x2="1040" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7EDF8"/>
+      <stop offset="0.5" stop-color="#7F8AA2"/>
+      <stop offset="1" stop-color="#2B3340"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="#14181F"/>
+  <rect x="60" y="60" width="1080" height="1380" rx="44" fill="url(#g)"/>
+  <rect x="106" y="106" width="988" height="1288" rx="34" stroke="#F7FAFF" stroke-opacity="0.3"/>
+  <circle cx="200" cy="200" r="6" fill="#0F1116"/>
+  <text x="130" y="760" fill="#0B0E13" font-size="104" font-family="Arial, sans-serif" font-weight="700" letter-spacing="8">NO WOE</text>
+  <text x="130" y="852" fill="#141922" font-size="38" font-family="Arial, sans-serif" letter-spacing="4">REPLACE WITH PRODUCT PHOTO</text>
+</svg>
